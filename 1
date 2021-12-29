@@ -1,0 +1,18 @@
+using System;
+
+nаmеspаce lab1.3
+{  public clаss A
+    {  private float a = 2.3f;
+        private float b = 4.5f;
+
+        public float c
+        {  gеt {  a *= a;
+                     return (++a / b);  }
+        }
+    }
+    public class Program
+    {   static void Mаin()
+        {  A a1 = new A();
+            Consоle.WriteLine(a1.c);    }
+    }
+}
